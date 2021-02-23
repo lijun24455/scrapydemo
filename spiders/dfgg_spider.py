@@ -7,4 +7,5 @@ class DfggSpiderSpider(scrapy.Spider):
     start_urls = ['http://www.ccgp.gov.cn/cggg/dfgg/gkzb/index.htm']
 
     def parse(self, response):
+        item_list = response.css('c_list_bid')
         pass
