@@ -9,7 +9,11 @@ import scrapy
 class ScrapydemoItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    linkmd5id = scrapy.Field()
-    title = scrapy.Field()
-    date = scrapy.Field()
     pass
+
+class BidItem(scrapy.Item):
+    link = scrapy.Field()
+    title = scrapy.Field()
+    content = scrapy.Field()
+    publisher = scrapy.Field()
+    date = scrapy.Field()

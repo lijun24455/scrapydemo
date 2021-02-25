@@ -11,6 +11,7 @@ BOT_NAME = 'scrapydemo'
 
 SPIDER_MODULES = ['scrapydemo.spiders']
 NEWSPIDER_MODULE = 'scrapydemo.spiders'
+FEED_EXPORT_ENCODING = 'UTF8'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
